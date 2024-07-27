@@ -1,0 +1,41 @@
+body {
+    max-width: 1512px;
+    background-color: #fff;
+    height: 900px;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    width: 100%;
+}
+
+.header__group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid #e0dfde;
+}
+
+.header__title {
+    display: flex;
+    justify-content: center;
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #8b7969;
+}
+
+.form__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    font-size: 20px;
+}
